@@ -18,7 +18,7 @@ Moontime adalah aplikasi pelacak menstruasi yang membantu pengguna untuk mencata
 ## Cara Meng-compile dan Menjalankan Aplikasi
 
 1. **Pastikan Anda memiliki compiler C** (misalnya, GCC) terinstal di komputer Anda.
-2. **Clone repository ini**:
+2. **Clone repository ini:**
    ```sh
    git clone https://github.com/alfdmsr/Moontime.v1.git
 3. **Masuk ke direktori repository:**
@@ -31,5 +31,29 @@ Moontime adalah aplikasi pelacak menstruasi yang membantu pengguna untuk mencata
    ```sh
    ./moontime
 
-   
+## Struktur Direktori
+Pastikan struktur direktori Anda seperti berikut:
+```sh
+repository-name/
+├── 1_inputData.c
+├── 2_catatanGejala.c
+├── 3_prediksiPeriodeSelanjutnya.c
+├── 4_reminder.c
+├── 5_statistik.c
+├── 6_prediksiMasaSubur.c
+├── 7_rekomendasiNutrisi.c
+├── menuNavigasi.c
+├── 1_inputData.h
+├── 2_catatanGejala.h
+├── 3_prediksiPeriodeSelanjutnya.h
+├── 4_reminder.h
+├── 5_statistik.h
+├── 6_prediksiMasaSubur.h
+├── 7_rekomendasiNutrisi.h
+└── README.md
+```
+
+## Kontribusi
+Jika Anda ingin berkontribusi pada proyek ini, silakan fork repository ini, buat branch baru untuk fitur atau perbaikan Anda, dan buat pull request. Kami akan meninjau perubahan Anda secepat mungkin.
+
    
