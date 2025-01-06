@@ -17,7 +17,7 @@ Moontime adalah aplikasi pelacak menstruasi yang membantu pengguna untuk mencata
 
 ## Cara Meng-compile dan Menjalankan Aplikasi
 
-1. **Pastikan Anda memiliki compiler C** (misalnya, GCC) terinstal di komputer Anda.
+1. **Pastikan Anda memiliki compiler C** (misalnya, minGW(GCC), atau lainnya) terinstal di komputer Anda.
 2. **Clone repository ini:**
    ```sh
    git clone https://github.com/alfdmsr/Moontime.v1.git
