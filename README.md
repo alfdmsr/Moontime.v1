@@ -22,10 +22,13 @@ Moontime adalah aplikasi pelacak menstruasi yang membantu pengguna untuk mencata
    ```sh
    git clone https://github.com/alfdmsr/Moontime.v1.git
 3. **Masuk ke direktori repository:**
+   ```sh
    cd Moontime.v1
-4. **Compile semua file .c:**
+5. **Compile semua file .c:**
+   ```sh
    gcc -o moontime menuNavigasi.c 1_inputData.c 2_catatanGejala.c 3_prediksiPeriodeSelanjutnya.c 4_reminder.c 5_statistik.c 6_prediksiMasaSubur.c 7_rekomendasiNutrisi.c
-5. **Jalankan aplikasi:**
+7. **Jalankan aplikasi:**
+   ```sh
    ./moontime
 
    
